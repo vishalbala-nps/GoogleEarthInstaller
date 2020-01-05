@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo -v
+
 if [ `id -u` != "0" ]; then
   echo "Please run as root"
   exit 1
